@@ -114,5 +114,3 @@ def answer_question():
     return jsonify({'answer': llm_answer})
 
 
-if __name__ == '__main__':
-    app.run(debug=True, port=8080)
